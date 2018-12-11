@@ -34,10 +34,12 @@ nav .logo {
     font-size: 30px;
     transition: .3s;
     color: #fff;
+    font-weight: bold;
 }
 
 nav.black .logo {
     color: #fff;
+    font-weight: bold;
 }
 
 nav ul {
@@ -60,18 +62,27 @@ nav ul li a {
     transition: .3s;
 }
 
+nav ul li a:hover {
+    background: rgb(172, 172, 172);
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
 nav.black ul li a {
     color: #fff;
 }
 
 nav ul li a:focus {
     outline: none;
+    text-decoration: none;
 }
 
 nav ul li a.active {
     background: #E2475F;
     color: #fff;
     border-radius: 6px;
+    text-decoration: none;
 }
 
 /* SECTIONS */
