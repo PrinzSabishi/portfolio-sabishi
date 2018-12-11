@@ -28,8 +28,6 @@ nav.black {
 
 nav .logo {
     padding: 20px 22px;
-    height: 100px;
-    width: 190px;
     float: left;
     font-size: 30px;
     transition: .3s;
@@ -90,7 +88,7 @@ nav ul li a.active {
     margin-top: 80px;
 }
 .section p {
-    width: 900px;
+    max-width: 900px;
     margin: 30px auto;
     text-align: justify;
     font-size: 20px;
@@ -102,4 +100,8 @@ nav ul li a.active {
     background-image: url("../img/bg.jpg");
     background-size: cover;
     background-position: center;
+}
+
+#mobile-nav {
+    display: none;
 }
