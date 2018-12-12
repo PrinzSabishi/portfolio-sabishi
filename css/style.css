@@ -110,6 +110,10 @@ nav ul li a.active {
     display: none;
 }
 
+#mobile-logo {
+    display: none;
+}
+
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
@@ -135,7 +139,7 @@ nav ul li a.active {
     .mobile-nav {
         display: block;
     }
-    .navbar-dark {
+    .nav-link {
         text-align: center;
         color: white;
     }
@@ -147,6 +151,12 @@ nav ul li a.active {
     }
     .bg-dark {
         background-color: rgba(0,0,0,0.95) !important;
+    }
+    #mobile-logo {
+        display: block;
+        max-width: 100%;
+        position: relative;
+        top: 100px;
     }
 }
 
