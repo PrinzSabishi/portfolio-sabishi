@@ -106,7 +106,7 @@ nav ul li a.active {
     color:#E2475F;
 }
 
-#mobile-nav {
+.mobile-nav {
     display: none;
 }
 
@@ -130,3 +130,28 @@ nav ul li a.active {
 .js {width: 80%; background-color: #c00808;} /* Red */
 .php {width: 50%; background-color: #575757;} /* Dark Grey */
 .python {width: 10%; background-color: #f8be52;} /* Dark Grey */
+
+@media (max-width: 768px) {
+    .mobile-nav {
+        display: block;
+    }
+    .navbar-dark {
+        text-align: center;
+        color: white;
+    }
+    .desktop-nav {
+        display: none;
+    }
+    #nav-bars {
+        float: right;
+    }
+    .bg-dark {
+        background-color: rgba(0,0,0,0.95) !important;
+    }
+}
+
+@media (max-width: 1249px) {
+    .desktop-nav {
+
+    }
+}
