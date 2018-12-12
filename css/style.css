@@ -114,6 +114,10 @@ nav ul li a.active {
     display: none;
 }
 
+#portfolio p {
+    text-align: center;
+}
+
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
