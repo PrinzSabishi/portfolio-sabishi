@@ -159,6 +159,7 @@ footer {
     background-color: #575757;
     color: white;
 }
+
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
