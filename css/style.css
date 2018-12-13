@@ -106,7 +106,7 @@ nav ul li a.active {
 
 #arrow-cover {
     position: absolute;
-        left: 49%;
+        left: 47%;
         bottom: 10px;
     color: white;
     font-size: 75px;
@@ -211,30 +211,43 @@ footer {
         display: block;
         z-index: 99;
     }
+
     .nav-link {
         text-align: center;
         color: white;
     }
+
     .desktop-nav {
         display: none;
     }
+
     #nav-bars {
         float: right;
     }
+
     .bg-dark {
         background-color: rgba(0,0,0,0.95) !important;
     }
+
     #mobile-logo {
         display: block;
         max-width: 100%;
         position: relative;
         top: 100px;
     }
+
     #cover-header-h1 {
         display: none;
     }
+
     #cover-header-h3 {
         display: none;
+    }
+
+    #arrow-cover {
+        position: absolute;
+            left: 42%;
+            bottom: 10px;
     }
 }
 
