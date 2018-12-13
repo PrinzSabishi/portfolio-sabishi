@@ -208,8 +208,21 @@ nav ul li a.active {
     }
 }
 
-@media (max-width: 1249px) {
-    .desktop-nav {
+@media (max-width: 1360px) {
+    #cover-header-h1 {
+        max-width: 900px;
+        position: relative;
+        right: 5%;
+    }
+    #cover-header-h1 h1 {
+        font-size: 4rem;
+    }
 
+    #cover-header-h3 {
+        max-width: 300px;
+    }
+    
+    #cover-header-h3 h3 {
+        font-size: 2rem;
     }
 }
