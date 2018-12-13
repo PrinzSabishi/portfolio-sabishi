@@ -111,6 +111,12 @@ nav ul li a.active {
     color: white;
     font-size: 75px;
 }
+
+#arrow-cover a {
+    color: white;
+    text-decoration: none;
+}
+
 .arrow-cover-anim {
     -webkit-animation-name: arrowbounce;
     animation-name: arrowbounce;
